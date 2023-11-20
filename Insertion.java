@@ -27,10 +27,6 @@ public class Insertion<T> implements Sorter<T> {
     // Reset count back to 0
     count = 0;
 
-    // _________________________________________________________________
-    // TODO ___________ COMPLETE INSERTION SORT BELOW __________________
-    // ________________   IMPORTANT TO COMMENT YOUR CODE _______________
-
     for(int j=1; j<array.length; j++){
       // Assign the key to value in array[j]
       T key = array[j];
@@ -46,9 +42,6 @@ public class Insertion<T> implements Sorter<T> {
       array[i+1] = key;
       count++;
     }
-
-
-    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
   } // end sort(T[])
 
