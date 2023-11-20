@@ -62,12 +62,7 @@ public class Counting<T> implements Sorter<T> {
 
     // Reset count back to 0
     count = 0;
-
-    // _________________________________________________________________
-    // TODO ___________ COMPLETE COUNTING SORT BELOW ___________________
-    // ________________   IMPORTANT TO COMMENT YOUR CODE _______________
-    // _____ BEWARE OF THE CONVERSION FROM 1-based to 0-based indexing _
-
+    
     // let B[] be an array with length inArray.length
     @SuppressWarnings("unchecked")
     T[] B = (T[]) new Object[inArray.length];
@@ -101,9 +96,6 @@ public class Counting<T> implements Sorter<T> {
     for(int i=0; i < inArray.length; i++){
         outArray[i] = B[i];
     }    
-    
-
-    // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^    
 
   } // end sort(T[], T[])
 
@@ -147,4 +139,4 @@ public class Counting<T> implements Sorter<T> {
     return(timeNS);
 
   }
-} // end class Countin
+} 
