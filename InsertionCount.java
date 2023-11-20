@@ -24,7 +24,6 @@ public class InsertionCount<T> implements Sorter<T> {
     // Reset count back to 0
     count = 0;
 
-    // TODO ___________ COMPLETE INSERTIONCOUNT SORT BELOW __________________
 
     int n = array.length;
     for (int i = 0; i < n; i++) {
@@ -48,9 +47,6 @@ public class InsertionCount<T> implements Sorter<T> {
         array[i] = temp;
       }
     }
- 
- 
- 
   } // end sort(T[])
 
   /**  Sorts specified array, placing results in outArray. Not in place sorter.
